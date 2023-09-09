@@ -33,3 +33,51 @@ body {
     padding: 0px;
     list-style: none;
 }
+
+.main-content {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.main-title {
+    display: flex;
+    align-self: flex-start;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.main-subtext {
+    display: flex;
+    align-self: flex-start;
+    margin-right: 100px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.signup-one {
+    display: flex;
+    align-self: flex-start;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 7px;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px 20px 5px 20px;
+}
+
+#main-image {
+    display: flex;
+    height: 350px;
+    width: auto;
+    margin-right: 150px;
+}
