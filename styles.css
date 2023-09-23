@@ -86,10 +86,14 @@ body {
 .additional-content {
     display: flex;
     flex-direction: column;
+    height: 400px;
+    font-weight: bolder;
+    font-size: 28px;
 }
 
 .additional-header {
     display: flex;
+    justify-content: center;
 }
 
 .additional-images-group {
@@ -99,8 +103,10 @@ body {
 
 .additional-image {
     display: flex;
-    height: auto;
+    height: 250px;
     width: auto;
+    border: 5px solid #3882f6;
+    
 }
 
 .quote {
@@ -121,22 +127,28 @@ body {
 .quote-author {
     display: flex;
     justify-content: flex-end;
+    font-weight: bold;
 }
 
 .contact {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: 250px;
 }
 .contact-box {
     display: flex;
     align-self: center;
+    justify-content: space-around;
     background-color: #3882f6;
+    width: 1000px;
+    border-radius: 7px;
 }
 
 .contact-text {
     display: flex;
     flex-direction: column;
+    padding: 50px;
 }
 
 .contact-text-header {
@@ -153,7 +165,9 @@ body {
 
 .signup-two {
     display: flex;
-    align-self: flex-start;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 7px;
